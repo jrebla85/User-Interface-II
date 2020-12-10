@@ -20,3 +20,23 @@ font-size: 100%;
 font: inherit;  
 vertical-align: baseline;  
 }
+
+body {
+    background-color: #002626;
+    color: #EFE7DA;
+}
+
+h1 {
+    color: #E55812;
+}
+
+a {
+    text-decoration: none;
+    border: #E55812 solid 1px;
+    color: #EFE7DA;
+}
+
+a:hover {
+    background-color: #0E4749;
+    color: #E55812;
+}
