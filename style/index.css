@@ -24,6 +24,13 @@ vertical-align: baseline;
 body {
     background-color: #002626;
     color: #EFE7DA;
+    margin: 5%;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    font-size: 50px;
 }
 
 h1 {
