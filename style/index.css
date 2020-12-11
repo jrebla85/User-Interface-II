@@ -1,1 +1,101 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+body {
+    background-color: #002626;
+    color: #EFE7DA;
+    margin: 5%;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: #E55812;
+    margin:5%;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    font-size: 100px;
+}
+
+h1 {
+    background-color: #EFE7DA;
+    color: #E55812;
+}
+
+a {
+    text-decoration: none;
+    border: #E55812 solid 1px;
+    color: #EFE7DA;
+}
+
+a:hover {
+    background-color: #0E4749;
+    color: #E55812;
+}
+
+.container {
+    margin:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 50%;
+    background-size: cover;
+    font-size: 100px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-one {
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin:5%;
+}
+
+.row-two {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin:5%;
+}
+
+.footer-nav {
+    font-size: 100px;
+}
