@@ -35,12 +35,23 @@ header {
 
 main {
     display: flex;
-    flex-flow: column wrap;
     justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    background-color: #E55812;
     margin:5%;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    font-size: 100px;
 }
 
 h1 {
+    background-color: #EFE7DA;
     color: #E55812;
 }
 
@@ -53,4 +64,38 @@ a {
 a:hover {
     background-color: #0E4749;
     color: #E55812;
+}
+
+.container {
+    margin:5%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 50%;
+    background-size: cover;
+    font-size: 100px;
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-one {
+    display:flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin:5%;
+}
+
+.row-two {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin:5%;
+}
+
+.footer-nav {
+    font-size: 100px;
 }
