@@ -67,6 +67,7 @@ a {
 a:hover {
     background-color: #0E4749;
     color: #E55812;
+    text-align: center;
 }
 
 img {
@@ -119,9 +120,35 @@ div {
 }
 
 @media only screen and (max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
 }
 
 @media only screen and (max-width: 500px) {
-    
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
 }
