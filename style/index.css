@@ -131,7 +131,37 @@ div {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
+    }
+
+    .projects {
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .row-one {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: left;
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .row-two {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: right;
+        width: 40%;
+        margin-left: 2%;
+    }
+
+    .projects-sm {
+        height:auto;
+        max-width: 100%;
     }
 
 }
@@ -148,7 +178,37 @@ div {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+        align-items: stretch;
+    }
+
+    .projects {
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .row-one {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: left;
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .row-two {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: right;
+        width: 40%;
+        margin-left: 2%;
+    }
+
+    .projects-sm {
+        height:auto;
+        max-width: 100%;
     }
 
 }
