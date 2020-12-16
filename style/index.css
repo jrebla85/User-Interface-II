@@ -1,1 +1,214 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+body {
+    background-color: #002626;
+    color: #EFE7DA;
+    margin: 5%;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 50px;
+    margin-bottom: 5%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0E4749;
+    height: 300px;
+    margin-top: 5%;
+}
+
+h1 {
+    background-color: #EFE7DA;
+    color: #E55812;
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
+}
+
+a {
+    text-decoration: none;
+    border: #EFE7DA solid 1px;
+    color: #EFE7DA;
+    background-color:#E55812;
+    font-size: large;
+    padding: 2px;
+    text-align: center;
+}
+
+a:hover {
+    background-color: #0E4749;
+    color: #E55812;
+    text-align: center;
+}
+
+img {
+    height: auto;
+    width: auto;
+    padding: 5%;
+}
+
+div {
+    text-align: center;
+}
+
+.main {
+    background-image: url("https://picsum.photos/450/450");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
+.row-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.row-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .projects {
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .row-one {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: left;
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .row-two {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: right;
+        width: 40%;
+        margin-left: 2%;
+    }
+
+    .projects-sm {
+        height:auto;
+        max-width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header-nav {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .projects {
+        width: 90%;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .row-one {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: left;
+        width: 40%;
+        margin-right: 2%;
+    }
+
+    .row-two {
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: right;
+        width: 40%;
+        margin-left: 2%;
+    }
+
+    .projects-sm {
+        height:auto;
+        max-width: 100%;
+    }
+
+}
