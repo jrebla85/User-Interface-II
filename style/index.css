@@ -30,35 +30,38 @@ body {
 header {
     display:flex;
     justify-content: space-between;
+    align-items: baseline;
     font-size: 50px;
-}
-
-main {
-    display: flex;
-    justify-content: center;
+    margin-bottom: 5%;
 }
 
 footer {
     display: flex;
     justify-content: center;
-    height: 200px;
-    background-color: #E55812;
-    margin:5%;
     align-items: center;
+    background-color: #0E4749;
     height: 300px;
-    width: 100%;
-    font-size: 100px;
+    margin-top: 5%;
 }
 
 h1 {
     background-color: #EFE7DA;
     color: #E55812;
+    font-size: xx-large;
+}
+
+h2 {
+    font-size: x-large;
 }
 
 a {
     text-decoration: none;
-    border: #E55812 solid 1px;
+    border: #EFE7DA solid 1px;
     color: #EFE7DA;
+    background-color:#E55812;
+    font-size: large;
+    padding: 2px;
+    text-align: center;
 }
 
 a:hover {
@@ -66,36 +69,53 @@ a:hover {
     color: #E55812;
 }
 
-.container {
-    margin:5%;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    width: 50%;
-    background-size: cover;
-    font-size: 100px;
+img {
+    height: auto;
+    width: auto;
+    padding: 5%;
 }
 
-.main-text {
+div {
+    text-align: center;
+}
+
+.main {
+    background-image: url("https://picsum.photos/450/450");
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
+.projects {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+
 .row-one {
-    display:flex;
+    display: flex;
+    flex-direction: row;
     justify-content: center;
-    justify-content: space-evenly;
-    margin:5%;
+    align-items: center;
+    width: 100%;
 }
 
 .row-two {
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    justify-content: space-evenly;
-    margin:5%;
+    align-items: center;
+    width: 100%;
 }
 
-.footer-nav {
-    font-size: 100px;
-}
+*/
